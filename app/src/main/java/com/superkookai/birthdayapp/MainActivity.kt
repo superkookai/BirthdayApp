@@ -37,9 +37,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingImage(stringResource(R.string.happy_birthday_kai),
-                        stringResource(R.string.signature)
-                    )
+//                    GreetingImage(stringResource(R.string.happy_birthday_kai),
+//                        stringResource(R.string.signature)
+//                    )
+                    BusinessCard()
                 }
             }
         }

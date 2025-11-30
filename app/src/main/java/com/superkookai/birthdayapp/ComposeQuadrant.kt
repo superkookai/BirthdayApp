@@ -51,13 +51,13 @@ fun QuarantScreen(modifier: Modifier = Modifier) {
                 "Text composable",
                 "Displays text and follows the recommended Material Design " +
                         "guidelines.", Color(0xFFEADDFF),
-                modifier = Modifier.weight(0.7f)
+                modifier = Modifier.weight(2f)
             )
             QuarantView(
                 "Image composable",
                 "Creates a composable that lays out and draws a given " +
                         "Painter class object.", Color(0xFFD0BCFF),
-                modifier = Modifier.weight(0.3f)
+                modifier = Modifier.weight(1f)
             )
         }
 
