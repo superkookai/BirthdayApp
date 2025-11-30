@@ -20,8 +20,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -80,7 +78,6 @@ fun InfoView(icon: Int, text: String) {
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier.padding(bottom = 20.dp)
     ) {
-        val image = painterResource(id = icon)
         Icon(painter = painterResource(id = icon), contentDescription = "icon",
             tint = Color(red = 0, green = 114, blue = 60),
             modifier = Modifier.padding(end = 30.dp))
